@@ -3,7 +3,7 @@
 // // // // Add those two together! Do you get a string or a number? Try adding a number and a boolean.
 // // // // What data type can we use to store both name and age in one variable?
 
-// // // let myName = "Shahid";
+// // // let myName = "Johnathon";
 // // // let myAge = 99;
 
 // // // typeof (myName + myAge);
@@ -112,7 +112,7 @@
 // // // console.log(isItEven(5));
 
 // // // let teacher = {
-// // //   name: "Shahid",
+// // //   name: "Johnathon",
 // // //   location: "Queensborough Community College",
 // // //   age: 99,
 // // //   sayHello: () => {
@@ -138,34 +138,34 @@
 // // // console.log(teacher);
 // // // console.log(teacher.sayHello());
 
-// // const addOneToAnswer = (callback, num) => {
-// //   return callback(num) + 1;
-// // };
-
-// // const multiplyByTwo = num => {
-// //   return num * 2;
-// // };
-
-// // // console.log(multiplyByTwo(4));
-
-// // // console.log(addOneToAnswer(multiplyByTwo, 6));
-
-// // const multiplyByThree = num => {
-// //   return num * 3;
-// // };
-
-// // console.log(addOneToAnswer(multiplyByThree, 4));
-
-// const myName = "Shahid";
-
-// const sayHello = name => {
-//   const greeting = "Hello ";
-//   return console.log(greeting);
+// const addOneToAnswer = (callback, num) => {
+//   return callback(num) + 1;
 // };
 
-// sayHello(myName);
+// const multiplyByTwo = num => {
+//   return num * 2;
+// };
 
-// console.log(myName);
+// // console.log(multiplyByTwo(4));
+
+// // console.log(addOneToAnswer(multiplyByTwo, 6));
+
+// const multiplyByThree = num => {
+//   return num * 3;
+// };
+
+// console.log(addOneToAnswer(multiplyByThree, 4));
+
+const myName = "Johnathon";
+
+const sayHello = name => {
+  const greeting = "Hello ";
+  return console.log(greeting);
+};
+
+sayHello(myName);
+
+console.log(myName);
 
 // console.log(greeting);
 
