@@ -13,7 +13,7 @@ When we run our code, we create a 'global execution context'
 - thread of execution
 - live memory of variables (global variable environment)
 
-```javascript=
+```javascript
 const number = 5; // first line
 function addTwo(input) {
   // function declaration
@@ -40,7 +40,7 @@ Function:
 
 - defining instructions for a set of code
 
-```javascript=
+```javascript
 const num = 3;
 function multiplyBy2(inputNumber) {
   const result = inputNumber * 2;
