@@ -145,3 +145,44 @@ function recurse(counter = 0) {
 const output = recurse(); // no need to pass it in this time
 console.log(output);
 ```
+
+## Recursion Rules
+
+In order to create a proper recursive function, we need three things.
+
+- **Termination Condition** This is our failsafe to make sure that the function doesn't get stuck in a loop. For example, for the factorial function, we can terminate if the value is negative. (Not always necessary but good to have.)
+
+- **Base Case** The goal of our recursive function. This is what the function should return at the end of calling itself. For example, `if (x === 0) return 1` checks to see if the value is `0`.
+
+- **Recursive Call** This is how you call the function within itself. This is where we decide what happens on each call.
+
+```javascript
+function factorial(x) {
+  // TERMINATION
+  if (x < 0) return;
+  // BASE
+  if (x === 0) return 1;
+  // RECURSION
+  return x * factorial(x - 1);
+}
+factorial(3);
+// 6
+```
+
+## Practice
+
+- Create a function `getLength`. This will get the length of an array using recursion without accessing its length property. (_Hint:_ Think of other built-in array methods.)
+
+  ```javascript
+  function getLength(array) {
+    // code here
+  }
+  ```
+
+- Create a function `power`. This will take two values, `base` and `exponent`, and return the value when the base is raised to the exponent. (`2^2=4`).
+
+  ```javascript
+  function power(base, exponent) {
+    // code here
+  }
+  ```
