@@ -1,4 +1,4 @@
-# JavaScript Virtual Class August 17, 2019
+# JavaScript: Objects and Classes
 
 ## Objects
 
